@@ -14,7 +14,6 @@
   </button>
   <a class="navbar-brand" href="{% url 'home'  %}"
     ><img src="{% static 'users/images/cw_logo.jpg' %}" alt="CLARUSWAY_LOGO" />
-
     Clarusway FS</a
   >
 
@@ -40,18 +39,18 @@
 
       <li class="nav-item active">
         {% comment %} {% url 'logout' %} {% endcomment %}
-        <a class="nav-link" href="{% url 'user_logout' %}">Log Out</a>
+        {% comment %} <a class="nav-link" href="{% url 'user_logout' %}">Log Out</a> {% endcomment %}
       </li>
       {% else %}
 
       <li class="nav-item active">
         {% comment %} {% url 'user_login' %} {% endcomment %}
-        <a class="nav-link" href="{% url 'user_login' %}">Log In</a>
+        {% comment %} <a class="nav-link" href="{% url 'user_login' %}">Log In</a> {% endcomment %}
       </li>
       {% endif %}
       <li class="nav-item active">
         {% comment %} {% url 'register' %}{% endcomment %}
-        <a class="nav-link" href="{% url 'register' %}">Register</a>
+        {% comment %} <a class="nav-link" href="{% url 'register' %}">Register</a> {% endcomment %}
       </li>
     </ul>
   </div>
