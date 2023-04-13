@@ -1,9 +1,9 @@
 
-<center><img src="cohort_007.jpg"  alt="Clarusway" width="600"/></center>
+<center><img src="cohort_007.jpg"  alt="Example" width="600"/></center>
 <br>
 
 <center><h1> Django Class Notes</h1></center>
-<p>Clarusway<img align="right"
+<p>Example<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 <br>
 
@@ -422,5 +422,5 @@ def form_valid(self, form):
 
 **<p align="center">&#9786; Happy Coding! &#9997;</p>**
 
-<p>Clarusway<img align="right"
+<p>Example<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>

@@ -197,9 +197,9 @@ navbar.html
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="{% url 'home'  %}"
-    ><img src="{% static 'users/images/cw_logo.jpg' %}" alt="CLARUSWAY_LOGO" />
+    ><img src="{% static 'users/images/cw_logo.jpg' %}" alt="EXAMPLE_LOGO" />
 
-    Clarusway FS</a
+    Example FS</a
   >
 
   <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -611,7 +611,7 @@ class CustomUserManager(BaseUserManager):
         return user
 
     def create_superuser(self, email, password, **extra_fields):
-        # CustomUser.objects.create_superuser(email = 'barry2@clarusway.com', password = '1234', is_superuser = False)
+        # CustomUser.objects.create_superuser(email = 'barry2@example.com', password = '1234', is_superuser = False)
 
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_superuser', True)

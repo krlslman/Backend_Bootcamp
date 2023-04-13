@@ -26,7 +26,7 @@ print("-----------------------------------")
 #! class attributes vs instance attributes 
 
 # class Person:
-#     company = "clarusway"
+#     company = "example"
     
 #     def test(self):
 #         print("test")
@@ -66,7 +66,7 @@ print("-----------------------------------")
 #! special methods ( init, str)
 
 # class Person:
-#     company = "clarusway"
+#     company = "example"
     
 #     def __init__(self, name, age):
 #         self.name = name
@@ -80,7 +80,7 @@ print("-----------------------------------")
 #         return f"{self.name} - {self.age}"
 
 
-# person1 = Person("henry", 18)
+# person1 = Person("selman", 18)
 # # person1.get_details()
 
 # person2 = Person("selçuk", 22)
@@ -100,7 +100,7 @@ print("-----------------------------------")
 
 #? encapsulation and abstraction
 # class Person:
-#     company = "clarusway"
+#     company = "example"
     
 #     def __init__(self, name, age):
 #         self.name = name
@@ -116,7 +116,7 @@ print("-----------------------------------")
 #         print(self.name, self.age)
         
 
-# person1 = Person("henry", 18)
+# person1 = Person("selman", 18)
 # person1._id = 4000
 # print(person1._id)
 # print(person1.__id)
@@ -128,7 +128,7 @@ print("-----------------------------------")
 
 #? inheritance and polymorphism (and multiple inheritance)
 class Person:
-    company = "clarusway"
+    company = "example"
     
     def __init__(self, name, age):
         self.name = name

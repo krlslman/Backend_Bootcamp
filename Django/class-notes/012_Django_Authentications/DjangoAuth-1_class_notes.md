@@ -126,7 +126,7 @@ py -m manage.py runserver
 - (Optional) Change the name of the project main directory as src to distinguish from subfolder with the same name!
 ```bash
 # optional
-mv .\clarusway\ src
+mv .\example\ src
 ```
 - Lets create first application:
 - Go to the same level with manage.py file:

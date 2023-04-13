@@ -15,7 +15,7 @@ from django.http import HttpResponse
 
 def home(request):
     context = {
-        'caption': 'clarusway',
+        'caption': 'example',
         'dict1': {'django': 'best framework'},
         'my_list': [2, 3, 4]
     }
